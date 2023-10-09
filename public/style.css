@@ -1,0 +1,232 @@
+/* style of home.ejs */
+
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+   
+}
+.nav-item  .nav-link{
+  color: red;
+ font-weight: bold;
+  
+}
+.nav-item  .nav-link:hover{
+    transform: scale(1.05);
+   
+    background-color: rgba(234, 225, 213, 0.438);
+    opacity: 0.8;
+    cursor: pointer;
+    border-radius: 10px;
+  
+}
+.frame{
+    height:85vh;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    border-radius: 20px;
+    background: linear-gradient(to bottom, rgba(224, 241, 221, 0.995),rgba(113, 166, 226, 0) );
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(1, 0, 0, 0.769);
+    color: rgb(193, 221, 244);
+    margin: 10px;
+}
+
+#color{
+    color: rgb(218, 25, 25);
+}
+.pad{
+    padding:20px;
+}
+#welcome{
+    margin-bottom: -5px;
+}
+.btn{
+    margin-left: 25px;
+}
+
+#welcome{
+    width: 100%;
+    color: blue;
+}
+
+/* end of home.ejs */
+
+
+/* css of about.ejs */
+
+.detail{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+ }
+
+ #pic{
+    margin-top: 20px;
+ margin: auto;
+ border-radius: 10px;
+   
+height:400px;
+width:400px;
+background-image: url("/imgs/mypic.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+background-color: rgba(245, 236, 218, 0.553);
+
+ }
+
+ #colorA{
+    color: rgb(218, 25, 25);
+}
+#h2A,.pA{
+    padding: 20px;
+    color: #0a0000;
+
+    font-size: 20px;
+
+
+}
+.btnA{
+margin-bottom:  10px;
+}
+
+
+/* end of about.ejs */
+
+
+
+/* css for project.ejs */
+
+.container{
+    margin: auto;
+    margin-top: 20px;
+    height:50%;
+   
+ 
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding:5px;
+  
+}
+.projects{
+ display: flex;
+ color: #333333;
+ background-color: #dddddd;
+
+ width: 550px;
+ height: 450px;
+ border-radius: 10px;
+ margin: 10px;
+
+}
+#EBooks{
+background-image: url("/imgs/Summerlove.jpg");
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: 100% 100%;
+}
+#DateNepal{
+background-image: url("/imgs/datingapp.jpg");
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: 100% 100%;
+}
+
+#Flightticket{
+background-image: url("/imgs/plane.jpg");
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: 100% 100%;
+}
+
+.projects:hover{
+transform: scale(1.03);
+}
+.Myproject{
+/* background-color: rgb(230, 243, 243); */
+padding: 5px;
+
+font-size: 20px;
+border-radius: 10px;
+box-shadow: 0px 25px 25px -10px rgba(13, 12, 12, 0.3);
+}
+#SummerLove, #DateNepal1, #flight{
+font-weight: bolder;
+color: lightseagreen;
+
+}
+/* end pf project.ejs */
+
+
+
+
+/* css for service  */
+.custom-navbar{
+    /* background-color: #e7f0f8; */
+    background-color: rgb(197, 243, 230);
+    border-bottom: 5px solid gray;
+  }
+  .container-fluid .navbar-brand{
+
+    color:red;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+  }
+
+    .card-img-top{
+        height:280px;
+    }
+    #logo{
+      width: fit-content;
+      height:60px;
+     
+    
+    }
+  
+     .card{
+        box-shadow: 0px 25px 25px -10px rgba(13, 12, 12, 0.3);
+     }
+     
+      
+    
+    .card:hover{
+      transform: scale(1.03);
+    }
+/* end of service */
+
+
+/* css for contact */
+
+ #top{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+ .mb-3{
+    width:500px;
+ }
+ #bigbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+.form-control{
+    border-radius: 20px;
+}
+ #success-message {
+    color: green;
+    font-weight: bold;
+   
+ }
+/* end for contact */
